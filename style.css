@@ -1,0 +1,20 @@
+.lol {
+    height: 300px;
+}
+
+.text {
+    animation: blick 2s infinite; 
+  }
+    @keyframes blick {
+      from { opacity: 1; }
+      to { opacity: 0; }
+      0% {transform: translate(0,0);}
+      20% {transform: translate(1000px, 500px);}
+      40% {transform: translate(1000px, 0px);}
+      80% {transform: translate(0px,500px);}
+      100% {transform: translate(0,0);}
+    }
+       
+
+
+  
